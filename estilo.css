@@ -16,6 +16,7 @@ width: 45vw;
 height: 80vh;
 border: 1px solid black;
 margin: 15px;
+position: relative;
 }
 
 #contenedor2 {
@@ -23,11 +24,40 @@ width: 45vw;
 height: 80vh;
 border: 1px solid black;
 margin: 15px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex-direction: row;
 }
 
 .cuadrado {
     width: 25%;
     height: 25%;
-    background-color: cyan;
+    background-color: rgb(3, 154, 255);
     border: 1px solid black;
+    position: absolute;
 }
+
+.cuadrado2 {
+    width: 25%;
+    height: 25%;
+    background-color: rgb(3, 154, 255);
+    border: 1px solid black;
+ 
+}
+
+#cuadro1 {
+top: 0%;
+left: 0%;
+}
+
+#cuadro2 {
+top: 25%;
+left: 25%;
+}
+
+#cuadro3 {
+top: 50%;
+left: 50%;
+}
+
