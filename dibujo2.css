@@ -116,21 +116,22 @@ overflow: hidden;
 }
 
 #trompa {
-    background-color: rgb(232, 232, 232);
-    top: 54%;
-    left: 22%;
+    background-color: rgb(222 221 221);
+    top: 55%;
+    left: 21%;
     transform: rotate(25deg);
     width: 167px;
     height: 136px;
+    border-top: 3px solid #f4f4f4;
 }
 
 #nariz {
     background-color: #252525;
     border-radius: 45%;
     top: 17%;
-    left: 24%;
+    left: 26%;
     transform: rotate(6deg);
-    width: 88px;
+    width: 82px;
     height: 63px;
     border-bottom: 7px solid #000000;
 }
