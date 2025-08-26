@@ -1,0 +1,200 @@
+
+/***********************/
+/* Estilo dibujo*/
+#tituloDibujo {
+text-align: center;
+}
+
+#lienzo {
+width: 700px;
+height: 600px;
+background-image: url("https://igualdadanimal.mx/app/uploads/2020/07/blog-vacas-maltrato-animal-crueldad-2-mx.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+border: 1px solid black;
+margin: 0 auto;
+position: relative;
+overflow: hidden;
+}
+
+.circulo {
+    width: 111px;
+    height: 84px;
+    background-color: rgb(43 45 44);
+    border-radius: 50%;
+    position: absolute;
+}
+
+#cabeza {
+    width: 231px;
+    height: 424px;
+    background-color: rgb(222, 221, 221);
+    top: 12%;
+    left: 26%;
+    transform: rotate(31deg);
+    border-radius: 47%;
+}
+
+#manchaIzq {
+    width: 64px;
+    height: 148px;
+    top: 22%;
+    left: 31%;
+    transform: rotate(33deg);
+}
+#manchaDer {
+   width: 146px;
+    height: 62px;
+    top: 43%;
+    left: 46%;
+    transform: rotate(117deg);
+}
+#ojoIzq {
+    background-color: rgb(255 255 255);
+    width: 35px;
+    height: 46px;
+    top: 27%;
+    left: 33%;
+    transform: rotate(33deg);
+}
+#ojoDer {
+ background-color: rgb(255 255 255);
+    width: 35px;
+    height: 46px;
+    top: 41%;
+    left: 56%;
+    transform: rotate(33deg);
+}
+#pupilaIzq {
+    background-color: rgb(24, 24, 24);
+    width: 25px;
+    height: 25px;
+    top: 27%;
+    left: 34%;
+    transform: rotate(33deg);
+}
+#pupilaDer {
+    background-color: rgb(20, 19, 19);
+    width: 25px;
+    height: 25px;
+    top: 41%;
+    left: 57%;
+    transform: rotate(33deg);
+}
+
+#orejaIzq {
+    width: 103px;
+    height: 181px;
+    top: 2%;
+    left: 20%;
+    transform: rotate(-39deg);
+}
+#orejaDer {
+   width: 185px;
+    height: 96px;
+    top: 36%;
+    left: 59%;
+    transform: rotate(173deg);
+}
+#cachoIzq {
+    background-color: rgb(173 174 170);
+    width: 142px;
+    height: 41px;
+    top: 13%;
+    left: 33%;
+    transform: rotate(52deg);
+    border-bottom: 3px solid #818181;
+}
+#cachoDer {
+    background-color: rgb(173 174 170);
+    width: 140px;
+    height: 40px;
+    top: 28%;
+    left: 57%;
+    transform: rotate(3deg);
+    border-bottom: 5px solid #818181;
+}
+
+#trompa {
+    background-color: rgb(232, 232, 232);
+    top: 54%;
+    left: 22%;
+    transform: rotate(25deg);
+    width: 167px;
+    height: 136px;
+}
+
+#nariz {
+    background-color: #252525;
+    border-radius: 45%;
+    top: 17%;
+    left: 24%;
+    transform: rotate(6deg);
+    width: 88px;
+    height: 63px;
+    border-bottom: 7px solid #000000;
+}
+
+#boca {
+    background-color: rgb(47 46 46);
+    top: 21%;
+    left: 28%;
+    transform: rotate(-2deg);
+    width: 72px;
+    height: 73px;
+    border-bottom: 9px solid #e0b7b7;
+}
+
+.cuadrado {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+#cielo {
+   background-color: rgb(151 203 228);
+    width: 100%;
+    height: 88%;
+    top: 0px;
+    left: 0px;
+}
+
+#lomo {
+   background-color: rgb(41 41 41);
+    width: 44%;
+    height: 33%;
+    top: 22%;
+    left: -119px;
+    transform: rotate(22deg);
+}
+
+#cuerpo {
+   background-color: rgb(41 41 41);
+    width: 44%;
+    height: 43%;
+    top: 50%;
+    left: -86px;
+    transform: rotate(44deg);
+}
+ 
+/* línea hecha con border*/
+.lineaHorizontal {
+    width: 100px;
+    height: 0px;
+    border: 3px solid rgb(255, 0, 0); /* borde de la figura: grosor, estilo, color */
+    position: absolute;
+    top: 50px;
+    left: 250px;
+}
+
+/* línea hecha con border*/
+.lineaVertical {
+    width: 0px;
+    height: 100px;
+    border: 3px solid rgb(0, 140, 255); /* borde de la figura: grosor, estilo, color */
+    position: absolute;
+    top: 10px;
+    left: 390px;
+}
