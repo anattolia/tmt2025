@@ -32,7 +32,7 @@ overflow: hidden;
     top: 12%;
     left: 26%;
     transform: rotate(31deg);
-    border-radius: 47%;
+    border-radius: 150px 150px 400px 400px;
 }
 
 #manchaIzq {
@@ -100,8 +100,8 @@ overflow: hidden;
     background-color: rgb(173 174 170);
     width: 142px;
     height: 41px;
-    top: 13%;
-    left: 33%;
+    left: 32%;
+    top: 11%;
     transform: rotate(52deg);
     border-bottom: 3px solid #818181;
 }
@@ -109,39 +109,41 @@ overflow: hidden;
     background-color: rgb(173 174 170);
     width: 140px;
     height: 40px;
-    top: 28%;
-    left: 57%;
+    top: 26%;
+    left: 59%;
     transform: rotate(3deg);
     border-bottom: 5px solid #818181;
 }
 
 #trompa {
-    background-color: rgb(222 221 221);
-    top: 55%;
-    left: 21%;
-    transform: rotate(25deg);
-    width: 167px;
-    height: 136px;
+    background-color: rgb(231 226 226);
+    top: 50%;
+    left: 22%;
+    transform: rotate(-8deg);
+    width: 159px;
+    height: 168px;
     border-top: 3px solid #f4f4f4;
+    border-radius: 20% 38% 20% 26%;
+    border-bottom: 2px solid #8c8c8c;
 }
 
 #nariz {
     background-color: #252525;
     border-radius: 45%;
-    top: 17%;
-    left: 26%;
-    transform: rotate(6deg);
-    width: 82px;
-    height: 63px;
+    top: 10%;
+    left: 13%;
+    transform: rotate(44deg);
+    width: 135px;
+    height: 95px;
     border-bottom: 7px solid #000000;
 }
 
 #boca {
     background-color: rgb(47 46 46);
-    top: 21%;
-    left: 28%;
-    transform: rotate(-2deg);
-    width: 72px;
+    top: 30%;
+    left: 14%;
+    transform: rotate(46deg);
+    width: 87px;
     height: 73px;
     border-bottom: 9px solid #e0b7b7;
 }
